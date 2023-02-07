@@ -20,3 +20,11 @@ Route::get('/', function () {
 Route::get('/cat', function () {
     return view('cat');
 });
+
+Route::get('/marmot', function () {
+    return view('marmot');
+});
+
+Route::get('/flamingo', function () {
+    return view('flamingo');
+});
